@@ -1,6 +1,6 @@
 import { Separator } from '@/components/ui/separator'
 import { checkSubscription } from '@/lib/subscription'
-import { auth, OrganizationSwitcher } from '@clerk/nextjs'
+import { auth } from '@clerk/nextjs/server'
 import React, { Suspense } from 'react'
 import { BoardList } from './_components/board-list'
 import { Info } from './_components/info'

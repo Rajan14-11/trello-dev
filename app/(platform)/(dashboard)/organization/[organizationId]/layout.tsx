@@ -1,4 +1,4 @@
-import { auth } from "@clerk/nextjs";
+import { auth } from "@clerk/nextjs/server";
 import { startCase } from "lodash";
 import React from "react";
 import { OrgControl } from "./_components/org-control";

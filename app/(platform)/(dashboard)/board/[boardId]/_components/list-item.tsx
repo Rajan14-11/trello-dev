@@ -33,7 +33,7 @@ export const ListItem = ({
       textareaRef.current?.focus();
     });
   };
-
+console.log(data)
   return (
     <Draggable draggableId={data.id} index={index}>
       {(provided) => (

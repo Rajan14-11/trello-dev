@@ -28,6 +28,7 @@ export const CardModal = () => {
       queryFn: () => fetcher(`/api/cards/${id}/logs`),
     });
 
+    console.log(cardData)
   return (
     <Dialog open={isOpen} onOpenChange={onClose}>
       <DialogContent>
